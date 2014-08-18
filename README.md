@@ -9,7 +9,7 @@ Usage
 
 To create the image `allready4v/wordpress`, execute the following command on the allready4v-docker-wordpress folder:
 
-	docker build -t allready4v/wordpress .
+	docker build -t allready4v/wordpress https://github.com/allready4v/docker-wordpress.git
 
 You can now push your new image to the registry:
 
